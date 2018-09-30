@@ -1,0 +1,6 @@
+# new image
+bazel build ...
+COPY dir:7d359e4cf55bca29a4071691df1960fcc7ad529fa2d186e89ac747b5dd57d725 in / 
+ EXPOSE 80
+ ENTRYPOINT ["nginx" "-g" "daemon off;"]
+# end of image: kyos0109/nginx-distroless (id: sha256:9cb3439b10749a8e1a20dda0c569cc8e270764c8428de54023a1260449f0ffb9 tags: latest)

@@ -1,0 +1,696 @@
+{
+  "monitors": {
+    "fan": {
+      "monitor_pid": 1,
+      "monitor_ppid": 0,
+      "event_count": 44,
+      "main_process": {
+        "pid": 16,
+        "name": "nginx",
+        "path": "/usr/sbin/nginx",
+        "cmd": "nginx -g daemon off;",
+        "cwd": "/",
+        "root": "/",
+        "ppid": 1
+      },
+      "processes": {
+        "16": {
+          "pid": 16,
+          "name": "nginx",
+          "path": "/usr/sbin/nginx",
+          "cmd": "nginx -g daemon off;",
+          "cwd": "/",
+          "root": "/",
+          "ppid": 1
+        },
+        "17": {
+          "pid": 17,
+          "name": "nginx",
+          "path": "/usr/sbin/nginx",
+          "cmd": "nginx: master process nginx -g daemon off;",
+          "cwd": "/",
+          "root": "/",
+          "ppid": 16
+        }
+      },
+      "process_files": {
+        "16": {
+          "/etc/group": {
+            "event_count": 1,
+            "first_eid": 36
+          },
+          "/etc/localtime": {
+            "event_count": 3,
+            "first_eid": 19,
+            "reads": 2
+          },
+          "/etc/nginx/conf.d/default.conf": {
+            "event_count": 2,
+            "first_eid": 40,
+            "reads": 1
+          },
+          "/etc/nginx/mime.types": {
+            "event_count": 3,
+            "first_eid": 37,
+            "reads": 2
+          },
+          "/etc/nginx/nginx.conf": {
+            "event_count": 1,
+            "first_eid": 24,
+            "reads": 1
+          },
+          "/etc/nsswitch.conf": {
+            "event_count": 2,
+            "first_eid": 25,
+            "reads": 1
+          },
+          "/etc/passwd": {
+            "event_count": 1,
+            "first_eid": 35
+          },
+          "/etc/ssl/openssl.cnf": {
+            "event_count": 2,
+            "first_eid": 22,
+            "reads": 2
+          },
+          "/lib/x86_64-linux-gnu/ld-2.24.so": {
+            "event_count": 3,
+            "first_eid": 5,
+            "reads": 2
+          },
+          "/lib/x86_64-linux-gnu/libc-2.24.so": {
+            "event_count": 1,
+            "first_eid": 18,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libcrypt-2.24.so": {
+            "event_count": 1,
+            "first_eid": 12,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libdl-2.24.so": {
+            "event_count": 2,
+            "first_eid": 8,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libnsl-2.24.so": {
+            "event_count": 2,
+            "first_eid": 29,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libnss_compat-2.24.so": {
+            "event_count": 2,
+            "first_eid": 27,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libnss_files-2.24.so": {
+            "event_count": 2,
+            "first_eid": 33,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libnss_nis-2.24.so": {
+            "event_count": 2,
+            "first_eid": 31,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libpcre.so.3.13.3": {
+            "event_count": 1,
+            "first_eid": 13,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libpthread-2.24.so": {
+            "event_count": 2,
+            "first_eid": 10,
+            "reads": 1
+          },
+          "/lib/x86_64-linux-gnu/libz.so.1.2.8": {
+            "event_count": 1,
+            "first_eid": 17,
+            "reads": 1
+          },
+          "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1": {
+            "event_count": 1,
+            "first_eid": 16,
+            "reads": 1
+          },
+          "/usr/lib/x86_64-linux-gnu/libssl.so.1.1": {
+            "event_count": 2,
+            "first_eid": 14,
+            "reads": 1
+          },
+          "/usr/sbin/nginx": {
+            "event_count": 4,
+            "first_eid": 1,
+            "reads": 3,
+            "execs": 4
+          },
+          "/var/run/nginx.pid": {
+            "event_count": 2,
+            "first_eid": 42,
+            "writes": 1
+          }
+        },
+        "17": {
+          "/etc/group": {
+            "event_count": 1,
+            "first_eid": 44
+          }
+        }
+      }
+    },
+    "pt": {
+      "arch_name": "amd64",
+      "syscall_count": 281,
+      "syscall_num": 40,
+      "syscall_stats": {
+        "0": {
+          "num": 0,
+          "name": "read",
+          "count": 21
+        },
+        "10": {
+          "num": 10,
+          "name": "mprotect",
+          "count": 26
+        },
+        "107": {
+          "num": 107,
+          "name": "geteuid",
+          "count": 1
+        },
+        "11": {
+          "num": 11,
+          "name": "munmap",
+          "count": 2
+        },
+        "110": {
+          "num": 110,
+          "name": "getppid",
+          "count": 1
+        },
+        "12": {
+          "num": 12,
+          "name": "brk",
+          "count": 5
+        },
+        "13": {
+          "num": 13,
+          "name": "rt_sigaction",
+          "count": 14
+        },
+        "14": {
+          "num": 14,
+          "name": "rt_sigprocmask",
+          "count": 2
+        },
+        "158": {
+          "num": 158,
+          "name": "arch_prctl",
+          "count": 1
+        },
+        "16": {
+          "num": 16,
+          "name": "ioctl",
+          "count": 4
+        },
+        "17": {
+          "num": 17,
+          "name": "pread",
+          "count": 4
+        },
+        "18": {
+          "num": 18,
+          "name": "pwrite",
+          "count": 1
+        },
+        "2": {
+          "num": 2,
+          "name": "open",
+          "count": 35
+        },
+        "202": {
+          "num": 202,
+          "name": "futex",
+          "count": 13
+        },
+        "21": {
+          "num": 21,
+          "name": "access",
+          "count": 2
+        },
+        "213": {
+          "num": 213,
+          "name": "epoll_create",
+          "count": 1
+        },
+        "218": {
+          "num": 218,
+          "name": "set_tid_address",
+          "count": 1
+        },
+        "273": {
+          "num": 273,
+          "name": "set_robust_list",
+          "count": 1
+        },
+        "3": {
+          "num": 3,
+          "name": "close",
+          "count": 29
+        },
+        "33": {
+          "num": 33,
+          "name": "dup2",
+          "count": 1
+        },
+        "39": {
+          "num": 39,
+          "name": "getpid",
+          "count": 1
+        },
+        "4": {
+          "num": 4,
+          "name": "stat",
+          "count": 12
+        },
+        "41": {
+          "num": 41,
+          "name": "socket",
+          "count": 5
+        },
+        "42": {
+          "num": 42,
+          "name": "connect",
+          "count": 4
+        },
+        "49": {
+          "num": 49,
+          "name": "bind",
+          "count": 1
+        },
+        "5": {
+          "num": 5,
+          "name": "fstat",
+          "count": 22
+        },
+        "50": {
+          "num": 50,
+          "name": "listen",
+          "count": 2
+        },
+        "53": {
+          "num": 53,
+          "name": "socketpair",
+          "count": 1
+        },
+        "54": {
+          "num": 54,
+          "name": "setsockopt",
+          "count": 1
+        },
+        "59": {
+          "num": 59,
+          "name": "execve",
+          "count": 1
+        },
+        "63": {
+          "num": 63,
+          "name": "uname",
+          "count": 2
+        },
+        "72": {
+          "num": 72,
+          "name": "fcntl",
+          "count": 5
+        },
+        "78": {
+          "num": 78,
+          "name": "getdents",
+          "count": 2
+        },
+        "8": {
+          "num": 8,
+          "name": "lseek",
+          "count": 5
+        },
+        "83": {
+          "num": 83,
+          "name": "mkdir",
+          "count": 5
+        },
+        "9": {
+          "num": 9,
+          "name": "mmap",
+          "count": 36
+        },
+        "92": {
+          "num": 92,
+          "name": "chown",
+          "count": 5
+        },
+        "96": {
+          "num": 96,
+          "name": "gettimeofday",
+          "count": 2
+        },
+        "97": {
+          "num": 97,
+          "name": "getrlimit",
+          "count": 3
+        },
+        "99": {
+          "num": 99,
+          "name": "sysinfo",
+          "count": 1
+        }
+      }
+    }
+  },
+  "image": {
+    "files": [
+      {
+        "file_type": "File",
+        "file_path": "/etc/group",
+        "mode": "-rw-r--r--",
+        "file_size": 459,
+        "sha1_hash": "715ba5c345df05fa28f0bed54f5960159536c99a"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/localtime",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 790,
+        "sha1_hash": "e5635f0691154dfc95a832e4445d2c9dfa44309c"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/nginx/conf.d/default.conf",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 1093,
+        "sha1_hash": "8d4bded2dabb978793b3a8005001d702804303fb"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/nginx/mime.types",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 5170,
+        "sha1_hash": "ccb8f78d8a3eaea874ff390f53c05697208a38ed"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/nginx/nginx.conf",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 643,
+        "sha1_hash": "edaf7e49bf5c8d8255d010fe11b9184fa76e660c"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/nsswitch.conf",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 497,
+        "sha1_hash": "340e00144bd53d4227d9a90d5e37c8ac4370158a"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/passwd",
+        "mode": "-rw-r--r--",
+        "file_size": 973,
+        "sha1_hash": "b2c2280acf9c30d23cf9b9eb460115a5b56bf983"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/etc/ssl/openssl.cnf",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 10771,
+        "sha1_hash": "15659a84fdba7b60fbcc7892ebababf79dee0340"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/ld-2.24.so",
+        "mode": "-rwxr-xr-x",
+        "flags": {
+          "R": true
+        },
+        "file_size": 153288,
+        "sha1_hash": "b11f17f814a38d498252cd3a186e1c9fd983c588"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "ld-2.24.so",
+        "file_size": 10
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libc-2.24.so",
+        "mode": "-rwxr-xr-x",
+        "flags": {
+          "R": true
+        },
+        "file_size": 1689360,
+        "sha1_hash": "07c653721a0131b9c8168142fe2738c8ac63c6fd"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libc.so.6",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libc-2.24.so",
+        "file_size": 12
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libcrypt-2.24.so",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 39256,
+        "sha1_hash": "9605dee8cdf96d95a1fb94250a43d22a19a80878"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libcrypt.so.1",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libcrypt-2.24.so",
+        "file_size": 16
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libdl-2.24.so",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 14640,
+        "sha1_hash": "70fb8bfeb15fb25adb4bcfe3ff504cb14ba6378b"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libdl.so.2",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libdl-2.24.so",
+        "file_size": 13
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libnsl-2.24.so",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 89064,
+        "sha1_hash": "e16c44d67ff81001d5e5a6510db09ae98eca2300"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libnsl.so.1",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libnsl-2.24.so",
+        "file_size": 14
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libnss_compat-2.24.so",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 31616,
+        "sha1_hash": "8b3bb0774b7fd752249e38599fca2fdc3652be32"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libnss_compat.so.2",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libnss_compat-2.24.so",
+        "file_size": 21
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libnss_files-2.24.so",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 47632,
+        "sha1_hash": "eefba70f1ff3588279a1a87da063ce1521cbdd40"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libnss_files.so.2",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libnss_files-2.24.so",
+        "file_size": 20
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libnss_nis-2.24.so",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 47688,
+        "sha1_hash": "b24bc099a56f4979ad993b4ce36163ed49506ae7"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libnss_nis.so.2",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libnss_nis-2.24.so",
+        "file_size": 18
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libpcre.so.3",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libpcre.so.3.13.3",
+        "file_size": 17
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libpcre.so.3.13.3",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 468920,
+        "sha1_hash": "c03addc3a7fe96cef59f570ac4acf95714442c14"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libpthread-2.24.so",
+        "mode": "-rwxr-xr-x",
+        "flags": {
+          "R": true
+        },
+        "file_size": 135440,
+        "sha1_hash": "198a12599be77ef93e38015983fc68d4427823a7"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libpthread.so.0",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libpthread-2.24.so",
+        "file_size": 18
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib/x86_64-linux-gnu/libz.so.1",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "libz.so.1.2.8",
+        "file_size": 13
+      },
+      {
+        "file_type": "File",
+        "file_path": "/lib/x86_64-linux-gnu/libz.so.1.2.8",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 105088,
+        "sha1_hash": "0e52c5955d1b3ebc12c6e81f48e26dac9f34597a"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/lib64/ld-linux-x86-64.so.2",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "/lib/x86_64-linux-gnu/ld-2.24.so",
+        "file_size": 32
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/usr/lib/ssl/openssl.cnf",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "/etc/ssl/openssl.cnf",
+        "file_size": 20
+      },
+      {
+        "file_type": "File",
+        "file_path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 2686672,
+        "sha1_hash": "092358d7bd7529099d1133b9c424566bd4d3883d"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/usr/lib/x86_64-linux-gnu/libssl.so.1.1",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "R": true
+        },
+        "file_size": 442920,
+        "sha1_hash": "99b54f10166d6aee053c2f9a08fdb82d341a95f7"
+      },
+      {
+        "file_type": "File",
+        "file_path": "/usr/sbin/nginx",
+        "mode": "-rwxr-xr-x",
+        "flags": {
+          "R": true,
+          "X": true
+        },
+        "file_size": 1296472,
+        "sha1_hash": "21ed58eaebef84b67cd073938e90b66c5774cce7"
+      },
+      {
+        "file_type": "Symlink",
+        "file_path": "/usr/share/zoneinfo/localtime",
+        "mode": "Lrwxrwxrwx",
+        "link_ref": "/etc/localtime",
+        "file_size": 14
+      },
+      {
+        "file_type": "File",
+        "file_path": "/var/run/nginx.pid",
+        "mode": "-rw-r--r--",
+        "flags": {
+          "W": true
+        },
+        "file_size": 3,
+        "sha1_hash": "3596ea087bfdaf52380eae441077572ed289d657"
+      }
+    ]
+  }
+}
